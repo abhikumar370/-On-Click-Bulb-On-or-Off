@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>light on off</title>
+</head>
+<style>
+body{
+    background-color: rgb(74, 74, 123);
+}
+img{
+    width: 100px;
+}
+h1{
+    color: aliceblue;
+}
+</style>
+<body>
+    <div class="container">
+        <h1>Please choose one!</h1>
+        <button onclick="document.getElementById('my image').src='on light1.jpg'">Turn on Light</button>
+
+        <img src="off light1.jpg" alt="LightOffPic" id="my image">
+
+        <button onclick="document.getElementById('my image').src='off light1.jpg'">Turn off Light</button>
+    </div>
+</body>
+</html>
